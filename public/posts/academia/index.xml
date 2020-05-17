@@ -1,0 +1,149 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>My academic projects &amp; research on Is this real life?</title>
+        <link>/posts/academia/</link>
+        <description>Recent content in My academic projects &amp; research on Is this real life?</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Thu, 12 Apr 2018 21:52:39 +0200</lastBuildDate>
+        <atom:link href="/posts/academia/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>2D Seismic lagrangian model</title>
+            <link>/posts/academia/seismicmodel/</link>
+            <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/academia/seismicmodel/</guid>
+            <description>About this project 2D Lagrangian model that aims to capture nonlinear soil-structure interactions given a seismic excitation. The structure was modeled by means of dashpots ands springs. The equations of movement were further determined using Lagrangian mechanics. Four problems are tackled, the first three are initial conditions problems (that try to emulate the seismic record maximum inputs), while the fourth problem describes the physical behavior of the structure given a real earthquake record</description>
+            <content type="html"><![CDATA[<h3 id="about-this-project">About this project</h3>
+<p>2D Lagrangian model that aims to capture nonlinear soil-structure interactions given a seismic excitation. The structure was modeled by means of dashpots ands springs. The equations of movement were further determined using Lagrangian mechanics. Four problems are tackled, the first three are initial conditions problems (that try to emulate the seismic record maximum inputs), while the fourth problem describes the physical behavior of the structure given a real earthquake record</p>
+<p>A scientific paper was done about A scientific paper came out of this work. It is currently under review on the International Journal for Numerical Methods in Engineering and we are waiting for a response.</p>
+<h2 id="project-video">Project video</h2>
+<p>Short video uploaded in YouTube showing the behavior of the proposed seismic model.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/IzVqMvX5ElQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Mechanical, mineralogical, morphological and computational characterization of Ecuadorian Soil</title>
+            <link>/posts/academia/characterization/</link>
+            <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/academia/characterization/</guid>
+            <description>About this project This is a first attempt to generate a nationwide data baseline of the mechanical, mineralogical and morphological characterization of Ecuadorian soil. With this aim, the analysis of unaltered soil samples corresponding to the capitals of twenty-three provinces and six other significant locations in Ecuador is performed as follows:
+First, the gradation and Atterberg limits allow us to obtain each sample’s classification according to the Unified Soil Classification System (USCS), which provides important information regarding soil’s mechanical behavior.</description>
+            <content type="html"><![CDATA[<h3 id="about-this-project">About this project</h3>
+<p><img src="/characterization.png" alt="Characterization"></p>
+<p>This is a first attempt to generate a nationwide data baseline of the mechanical, mineralogical and morphological characterization of Ecuadorian soil. With this aim, the analysis of unaltered soil samples corresponding to the capitals of twenty-three provinces and six other significant locations in Ecuador is performed as follows:</p>
+<p>First, the gradation and Atterberg limits allow us to obtain each sample’s classification according to the Unified Soil Classification System (USCS), which provides important information regarding soil’s mechanical behavior. Second, unconsolidated undrained (UU) tri-axial tests are carried out in order to determine soil’s strength, i.e., internal friction angle and cohesion. Third, chemical and mineralogical features are inferred by means of energy dispersive spectroscopy (EDS) in a scanning electron microscope (SEM).</p>
+<p><img src="/samples.png" alt="Characterization"></p>
+<p>Fourth, the morphology of the grains that furnish the fabric of each given soil sample is obtained by calculating parameters such as roundness, sphericity, grain volume, and grain surface area. Here, through a 3D X-ray computed tomography (3DXRCT) of the samples, the actual shape of each grain is first retrieved (by turning the 3DXRCT voxel-based images into mathematical functions called Level Sets (LS)), calculations on the morphology of the grains are performed. With the output parameters from the four steps that conform the aforementioned analysis of soil samples, a database is created to generate more accurate accurate and sophisticated computer models with enhanced predictive capabilities and improved micro-structure evaluation of real physical samples.</p>
+<p><img src="/jamGrains.png" alt="Characterization"></p>
+<p>These new models could eventually replace both: the need for extensive, costly laboratory tests to understand real natural phenomena; and the use of phenomenological models that fail to incorporate micro-mechanical and morphological effects, that are key when it comes to the analysis of the materials behavior. The creation of this dataset is the first step within an overall effort where much remains to be done.</p>
+<p>A scientific paper came out of this work. It is currently under review on the Acta Geotecnica journal and we are waiting for a response.</p>
+<h2 id="project-video">Project video</h2>
+<p>Short video uploaded in YouTube about the project.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/qYyNn_Ty4vQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>A one-to-one Concrete Sample Computational Avatar</title>
+            <link>/posts/academia/3dlevelsets/</link>
+            <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/academia/3dlevelsets/</guid>
+            <description>About this project From a real concrete sample, we extract 3DXRCT images from which we isolate the aggregate pixels. First, by processing the CT images and then by transforming the aggregates into scalar mathematical functions called Level-Sets. Once we have reconstructed the concrete cylinder using the aggregate Level-Sets we are ready to make a uniaxial computational simulation and compare it with the real concrete cylinder test. These is how fairly well processed images look like, these is actually a concrete cylinder.</description>
+            <content type="html"><![CDATA[<h3 id="about-this-project">About this project</h3>
+<p><img src="/concrete.png" alt="Characterization"></p>
+<p>From a real concrete sample, we extract 3DXRCT images from which we isolate the aggregate pixels. First, by processing the CT images and then by transforming the aggregates into scalar mathematical functions called Level-Sets. Once we have reconstructed the concrete cylinder using the aggregate Level-Sets we are ready to make a uniaxial computational simulation and compare it with the real concrete cylinder test. These is how fairly well processed images look like, these is actually a concrete cylinder.</p>
+<p>After processing the 3DXRCT images and identifying the aggregates of the concrete mix, we proceed to evolve a surface towards the frontiers of the grain by using level sets. Level-set are scalar mathematical functions that implicitly determine the boundaries of the grain. Being the distance or level 0 the surface of the grain, outside it will be positive level or distance while inside it will be negative level or distance.</p>
+<p><img src="/levelset.png" alt="Characterization"></p>
+<p>Finally, an example of a 3D level-set evolution towards the aggregate inside the concrete cylinder is shown.These digital avatars have an exact counterpart in the real life.</p>
+<p><img src="/levelsetProcess.gif" alt="Characterization"></p>
+<p>Then a 2D Level-Set evolution is performed in order to transform the 3DXRCT grain images into mathematical functions, ready to be used in computerized granular models. We show a Level-Set evolution from a circular Level-Set function, in other words the initial guess is a circle. This evolution is guided or attracted basically by large image gradients. As you can see, the image gradient will be greater in the void-grain transition.</p>
+<p>Finally, we show a Level-Set evolution given an initial binary grain solution. It is much faster and smoother!</p>
+<p><img src="/2dlevelset.gif" alt="Characterization"></p>
+<h2 id="project-video">Project video</h2>
+<p>Short video about the image processing and later level set evoulution of the aggregates inside the sample. This video is more instructive rather than purely academic.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/aN40k7PO5ZI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Image processing</title>
+            <link>/posts/academia/imageprocessing/</link>
+            <pubDate>Tue, 11 Jul 2017 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/academia/imageprocessing/</guid>
+            <description>About this project From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.
+The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space.</description>
+            <content type="html"><![CDATA[<h3 id="about-this-project">About this project</h3>
+<p><img src="/jamSlice.png" alt="Characterization"></p>
+<p>From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.</p>
+<p>The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space.</p>
+<p>If we make zoom onto the images we will clearly see how noisy they are. First, we use a Non Local Means filter, which as its name states, it is non local meaning that it ponderates the neighboring image windows distance from the one being analyzed, in other words neighboring image windows that are far away from the actual image window are going to recibe less ponderation. Second, we binarize the slice in order to better distinguish what is a grain and what is void space using a classical Threshold Otsu method, which basically divides the area of the pixels histogram in two, this point of division is the actual threshold that tells us that below that threshold we have empty space and above that threshold we have a grain.</p>
+<p><img src="/processing.png" alt="Characterization"></p>
+<p>Then a 2D Level-Set evolution is performed in order to transform the 3DXRCT grain images into mathematical functions, ready to be used in computerized granular models. We show a Level-Set evolution from a circular Level-Set function, in other words the initial guess is a circle. This evolution is guided or attracted basically by large image gradients. As you can see, the image gradient will be greater in the void-grain transition.</p>
+<p>Finally, we show a Level-Set evolution given an initial binary grain solution. It is much faster and smoother!</p>
+<p><img src="/2dlevelset.gif" alt="Characterization"></p>
+<h2 id="project-video">Project video</h2>
+<p>Short video about the image processing and later level set evoulution of grains inside the sample. This video is more instructive rather than purely academic.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/_cuVQWQpRH8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+        <item>
+            <title>Linear elasticity</title>
+            <link>/posts/academia/elasticity/</link>
+            <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/academia/elasticity/</guid>
+            <description>About this project This is a simple, &amp;lsquo;from-scratch&amp;rsquo; and (maybe) hardcoded FE script, nonetheless it gets the job done. This is one of the first scripts I did for the Theoretical and Computational Mechanics Group. There is not much to say, but that the code is thought for both planar stress or planar strain. The following example includes a one sided fixed plate pulled by a opposite side distributed load. The tackled problem is shown in the following figure.</description>
+            <content type="html"><![CDATA[<h3 id="about-this-project">About this project</h3>
+<p><img src="/elasticity1.png" alt="Characterization"></p>
+<p>This is a simple, &lsquo;from-scratch&rsquo; and (maybe) hardcoded FE script, nonetheless it gets the job done. This is one of the first scripts I did for the Theoretical and Computational Mechanics Group. There is not much to say, but that the code is thought for both planar stress or planar strain. The following example includes a one sided fixed plate pulled by a opposite side distributed load. The tackled problem is shown in the following figure.</p>
+<p>After running the code, the informartion obtained is post-processed, the following images show the stresses and strains the plates suffers after the force is applied.</p>
+<p><img src="/elasticity2.png" alt="Characterization"></p>
+<h2 id="matlab-code">MatLab Code</h2>
+<p>Find the Matlab code <a href="https://la.mathworks.com/matlabcentral/fileexchange/67276-finite-element-code-for-planar-elasticity">here</a></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Nonlinear double pendulum</title>
+            <link>/posts/academia/doublependulum/</link>
+            <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/academia/doublependulum/</guid>
+            <description>About this project Simulation of a nonlinear and linear double pendulum. It is important to mention that the animation was made in Matlab. The solution of the equations that describe the movement of the double pendulum were coded from scratch making use of classic numerical methods. A lagragian physics framework was used in order to obtain the equations that describe the behaviour of the double pendulum. In the case of the nonlinear pendulum, the equations were first discretized by finite differences and then a multivariable Newton-Raphson (NR) solver was implemented each tilmestep in order to solve the nonlinear system of equations that arise from the FD scheme discretization.</description>
+            <content type="html"><![CDATA[<h3 id="about-this-project">About this project</h3>
+<p>Simulation of a nonlinear and linear double pendulum. It is important to mention that the animation was made in Matlab. The solution of the equations that describe the movement of the double pendulum were coded from scratch making use of classic numerical methods. A lagragian physics framework was used in order to obtain the equations that describe the behaviour of the double pendulum. In the case of the nonlinear pendulum, the equations were first discretized by finite differences and then a multivariable Newton-Raphson (NR) solver was implemented each tilmestep in order to solve the nonlinear system of equations that arise from the FD scheme discretization. In the case of the linear pendulum, a NR solver was not needed because the system of equations is linear.</p>
+<h2 id="project-video">Project video</h2>
+<p>Short video uploaded in YouTube about the project.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/Bl7eaPyYg3g" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

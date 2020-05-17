@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="juanmarcadena ">
+<meta name="description" content="About this project From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.
+The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="" />
+<link rel="canonical" href="/posts/academia/imageprocessing/" />
+
+
+    <title>
+        
+            Image processing :: Is this real life?  — A simple theme for Hugo
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.ce686e1cbc17c11aabdc4f8665d24bede4d800cceed2397718ca0b9291331182.css">
+
+
+
+
+<meta itemprop="name" content="Image processing">
+<meta itemprop="description" content="About this project From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.
+The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space.">
+<meta itemprop="datePublished" content="2017-07-11T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-07-11T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="330">
+<meta itemprop="image" content="/"/>
+
+
+
+<meta itemprop="keywords" content="" /><meta property="og:title" content="Image processing" />
+<meta property="og:description" content="About this project From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.
+The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/posts/academia/imageprocessing/" />
+<meta property="og:image" content="/"/>
+<meta property="article:published_time" content="2017-07-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2017-07-11T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="Image processing"/>
+<meta name="twitter:description" content="About this project From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.
+The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space."/>
+
+
+
+
+
+    <meta property="article:published_time" content="2017-07-11 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">Y H L Q M D L G</span>
+            <span class="logo__cursor" style=
+                  "
+                   
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/me">me</a></li><li><a href="/music">music</a></li><li><a href="/posts">posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>2 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title">
+                <a href="/posts/academia/imageprocessing/">Image processing:</a>
+            </h1>
+
+            <h2 class="post-subtitle">
+               From granular 3DXRCT images to a 2D level set evolution
+            </h2>
+
+            
+
+            <div class="post-content">
+                <h3 id="about-this-project">About this project</h3>
+<p><img src="/jamSlice.png" alt="Characterization"></p>
+<p>From a real granular sample we extract 3DXRCT images and then isolate the grains pixels. First, we process the CT images to further transform the grain pixels into scalar mathematical functions called Level-Sets.</p>
+<p>The samples depicted are Jaramijó Secondary Lahars (Ecuador soil) and the respective 3D pixel reconstruction of those slices. However, the main problem with these slices is that they are raw images, therefore they are really noisy which makes really difficult to know what is a grain or empty space.</p>
+<p>If we make zoom onto the images we will clearly see how noisy they are. First, we use a Non Local Means filter, which as its name states, it is non local meaning that it ponderates the neighboring image windows distance from the one being analyzed, in other words neighboring image windows that are far away from the actual image window are going to recibe less ponderation. Second, we binarize the slice in order to better distinguish what is a grain and what is void space using a classical Threshold Otsu method, which basically divides the area of the pixels histogram in two, this point of division is the actual threshold that tells us that below that threshold we have empty space and above that threshold we have a grain.</p>
+<p><img src="/processing.png" alt="Characterization"></p>
+<p>Then a 2D Level-Set evolution is performed in order to transform the 3DXRCT grain images into mathematical functions, ready to be used in computerized granular models. We show a Level-Set evolution from a circular Level-Set function, in other words the initial guess is a circle. This evolution is guided or attracted basically by large image gradients. As you can see, the image gradient will be greater in the void-grain transition.</p>
+<p>Finally, we show a Level-Set evolution given an initial binary grain solution. It is much faster and smoother!</p>
+<p><img src="/2dlevelset.gif" alt="Characterization"></p>
+<h2 id="project-video">Project video</h2>
+<p>Short video about the image processing and later level set evoulution of grains inside the sample. This video is more instructive rather than purely academic.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/_cuVQWQpRH8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>330 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2017-07-11 02:00 &#43;0200</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h">Read other posts</span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="/posts/academia/3dlevelsets/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">A one-to-one Concrete Sample Computational Avatar</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/posts/academia/elasticity/">
+                                <span class="button__text">Linear elasticity</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            <span><a href="/sitemap.xml" target="_blank" title="rss"> Sitemap </a></span>
+        </div>
+    </div>
+</footer>
+
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.2d5469329143160ae2456a69c3c76dc2d0a3b212b46afe291a51bd68650ed6f8697e001dab54f1c272c77ce08092a8c55e5bb4314e0ee334aab4b927ec896638.js" integrity="sha512-LVRpMpFDFgriRWppw8dtwtCjshK0av4pGlG9aGUO1vhpfgAdq1TxwnLHfOCAkqjFXlu0MU4O4zSqtLkn7IlmOA=="></script>
+
+
+
+    </body>
+</html>
