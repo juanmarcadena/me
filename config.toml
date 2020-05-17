@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-title = "Is this the real life?"
+title = "Is this real life?"
 
 [params]
   
@@ -20,7 +20,7 @@ title = "Is this the real life?"
   images = [""]
   [[params.social]]
     name = "twitter"
-    url = "https://twitter.com/JuanMartinCa"
+    url = "https://twitter.com/juanmarcadena"
   [[params.social]]
     name = "instagram"
     url = "https://www.instagram.com/juanmarcadena/"
@@ -33,7 +33,7 @@ title = "Is this the real life?"
 
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
+  contentTypeName = "content/blog"
 
   # Default theme "light" or "dark"
   defaultTheme = "light"
@@ -63,11 +63,16 @@ title = "Is this the real life?"
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/pretentious-stuff"
-  [[menu.main]]
     identifier = "post"
-    name       = "Posts"
+    name       = "posts"
     url        = "/posts"
+  [[menu.main]]
+    identifier = "music"
+    name       = "music"
+    url        = "music"
+  [[menu.main]]
+    identifier = "me"
+    name       = "me"
+    url        = "/me"
+  
 
