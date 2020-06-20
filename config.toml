@@ -5,15 +5,15 @@ title = "Is this real life?"
 
 [params]
   
-  homeSubtitle    = "YHLQMDLG"
+  homeSubtitle    = "Juan Martin"
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
-
+  mainSections = ["posts", "music"]
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
-
+  
   # Metadata mostly used in document's head
   description = "My new homepage or blog"
   keywords = "homepage, blog"
@@ -33,7 +33,7 @@ title = "Is this real life?"
 
 
   # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "content/blog"
+  contentTypeName = "content/"
 
   # Default theme "light" or "dark"
   defaultTheme = "light"
@@ -65,14 +65,10 @@ title = "Is this real life?"
   [[menu.main]]
     identifier = "post"
     name       = "posts"
-    url        = "/posts"
+    url        = "posts/academia"
   [[menu.main]]
     identifier = "music"
     name       = "music"
-    url        = "music"
-  [[menu.main]]
-    identifier = "me"
-    name       = "me"
-    url        = "/me"
-  
+    url        = "/music"
+
 

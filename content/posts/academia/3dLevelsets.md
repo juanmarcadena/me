@@ -1,7 +1,7 @@
 ---
 title: "A one-to-one Concrete Sample Computational Avatar"
 subtitle: "from 3DXRCT images to a complete multi-phase computational model"
-date: 2017-07-11
+date: "2017-07-11"
 draft: false
 ---
 

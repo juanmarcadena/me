@@ -3,14 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/academia/seismicmodel/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2020-06-20T14:24:52+02:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>/music/top10-week-25-of-2020/</loc>
+    <lastmod>2020-06-20T14:24:52+02:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/music/top10-week-22-of-2020/</loc>
+    <lastmod>2020-05-25T14:24:52+02:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/academia/seismicmodel/</loc>
     <lastmod>2018-11-21T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -32,6 +46,13 @@
   
   <url>
     <loc>/posts/academia/</loc>
+    <lastmod>2018-04-12T21:52:39+02:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/music/</loc>
     <lastmod>2018-04-12T21:52:39+02:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
