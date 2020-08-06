@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-title = "Is this real life?"
+title = "juanmarcadena"
 
 [params]
   
@@ -47,7 +47,7 @@ title = "Is this real life?"
   name = "juanmarcadena"
 
 [languages.en]
-    subtitle = "A simple theme for Hugo"
+    subtitle = ""
     keywords = ""
     #copyright = "© 2015 Jane Doe.  <a href=\"https://creativecommons.org/licenses/by/4.0/\">Some rights reserved</a>."
     readOtherPosts = "Read other posts"
