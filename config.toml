@@ -70,5 +70,10 @@ title = "juanmarcadena"
     identifier = "music"
     name       = "music"
     url        = "/music"
-
+  [[menu.main]]
+    identifier = "me"
+    name       = "me"
+    url        = "posts/me"  
+    
+  
 
