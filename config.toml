@@ -31,6 +31,8 @@ title = "juanmarcadena"
     name = "rss"
     url = " "
 
+  [params.favicon.color]
+    mask = "black"
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "content/"
