@@ -1,7 +1,7 @@
 ---
 title: "me"
-date: "2018-04-12T21:52:39+02:00"
+date: 2020-09-07T11:24:27+02:00
 draft: false
 ---
 
-Another index
+This is me trying to keep the promise of the Internet alive 🥱.
