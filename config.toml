@@ -25,11 +25,15 @@ title = "juanmarcadena"
     name = "instagram"
     url = "https://www.instagram.com/juanmarcadena/"
   [[params.social]]
+    name = "tiktok"
+    url = "https://www.tiktok.com/@juanmarcadena"
+  [[params.social]]
     name = "github"
     url = "https://github.com/juanmarcadena"
   [[params.social]]
     name = "rss"
-    url = " "
+    url = ""
+
 
   [params.favicon.color]
     mask = "black"
