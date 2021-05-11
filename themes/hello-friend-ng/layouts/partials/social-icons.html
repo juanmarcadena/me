@@ -1,9 +1,0 @@
-{{- range . -}}
-
-    {{- if (eq .name "rss") -}}
-      &nbsp; <a href="{{ "gitindex.xml" | absLangURL }}" target="_blank" rel="noopener" title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a> &nbsp;
-    {{- else -}}
-      &nbsp; <a href="{{ .url }}" target="_blank" rel="noopener" title="{{ .name | humanize }}">{{ partial "svg.html" . }}</a> &nbsp;
-    {{- end -}}
-
-{{- end -}}
