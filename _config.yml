@@ -7,7 +7,7 @@ email: cadenaj@purdue.edu
 linkedin: juanmartincadena
 
 minima:
-social_links:
-    - { platform: linkedin,  user_url: "https://www.linkedin.com/in/juanmartincadena/" }
-    - { platform: github,   user_url: "https://github.com/juanmarcadena" }
-    - { platform: instagram, user_url: "https://www.instagram.com/juanmarcadena/" }
+    social_links:
+        - { platform: linkedin,  user_url: "https://www.linkedin.com/in/juanmartincadena/" }
+        - { platform: github,   user_url: "https://github.com/juanmarcadena" }
+        - { platform: instagram, user_url: "https://www.instagram.com/juanmarcadena/" }
