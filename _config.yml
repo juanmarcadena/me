@@ -6,7 +6,6 @@ phone: (765) 772-8587
 email: cadenaj@purdue.edu
 linkedin: juanmartincadena
 
-minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
-    - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
+social_links:
+ - { platform: github,  user_url: "https://github.com/jekyll/jekyll" }
+ - { platform: twitter, user_url: "https://twitter.com/jekyllrb" }
