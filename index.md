@@ -1,20 +1,40 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-  {%- include head.html -%}
+## Personal Information
+- **Name:** {{ site.title }}
+- **Email:** {{ site.email }}
+- **Phone:** {{ site.phone }}
+- **LinkedIn:** [{{ site.linkedin }}](https://www.linkedin.com/in/{{ site.linkedin }})
+- **GitHub:** [{{ site.github }}](https://github.com/{{ site.github }})
+- **Address:** {{ site.address }}
 
-  <body>
+## Objective
 
-    {%- include header.html -%}
+Your objective or summary goes here. This can be a short paragraph summarizing your professional goals and aspirations.
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+## Education
 
-    {%- include footer.html -%}
+- **University Name** - Degree, Year
+- **College Name** - Diploma/Certificate, Year
 
-  </body>
+## Experience
 
-</html>
+### Job Title at Company Name
+*Month Year - Month Year*
+- Responsibility or achievement 1.
+- Responsibility or achievement 2.
+- Responsibility or achievement 3.
+
+### Another Job Title at Another Company
+*Month Year - Month Year*
+- Responsibility or achievement 1.
+- Responsibility or achievement 2.
+
+## Skills
+
+- Skill 1
+- Skill 2
+- Skill 3
+- Skill 4
