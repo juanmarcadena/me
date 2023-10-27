@@ -18,9 +18,9 @@ linkedin: juanmartincadena
 
 remote_theme: jekyll/minima
 
-#plugins:
+plugins:
 #  - jekyll-feed
-#  - jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Theme-specific settings
 
