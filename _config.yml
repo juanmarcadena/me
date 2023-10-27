@@ -1,14 +1,17 @@
-title: Your awesome title
-author:
-  name: GitHub User
-  email: your-email@domain.com
+title: Juan Martin
+author: Juan Martin Cadena
+  email: cadenaj@purdue.edu
+
+address: West Lafayette, IN 47906
+phone: (765) 772-8587
+linkedin: juanmartincadena
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+#description: >
+#  Write an awesome description for your new site here. You can edit this line
+#  in _config.yml. It will appear in your document head meta (for Google search
+#  results) and in your feed.xml site description.
 
 # Build settings
 
@@ -21,6 +24,11 @@ plugins:
 # Theme-specific settings
 
 minima:
+  skin: dark
+  social_links:
+    - { platform: linkedin,  user_url: "https://www.linkedin.com/in/juanmartincadena/" }
+    - { platform: github,   user_url: "https://github.com/juanmarcadena" }
+    - { platform: instagram, user_url: "https://www.instagram.com/juanmarcadena/" }
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
