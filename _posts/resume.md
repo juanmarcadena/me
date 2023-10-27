@@ -1,5 +1,7 @@
 ---
 layout: post
+title: "Resume"
+categories: misc
 ---
 
 ## Personal Information
