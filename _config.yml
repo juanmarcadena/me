@@ -1,8 +1,7 @@
-title: Juan M. Cadena
-address: West Lafayette, IN 47906
-phone: (765) 772-8587
-email: cadenaj@purdue.edu
-linkedin: juanmartincadena
+title: Your awesome title
+author:
+  name: GitHub User
+  email: your-email@domain.com
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
