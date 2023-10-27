@@ -4,7 +4,7 @@ layout: home
 
 - **Address:** {{ site.address }}
 - **Phone:** {{ site.phone }}
-- **Email:** [{{ site.email }}](mailto:{{ site.email }})
+- **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
 - **LinkedIn:** [{{ site.linkedin }}](https://www.linkedin.com/in/{{ site.linkedin }})
 
 ## Education
