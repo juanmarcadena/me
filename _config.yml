@@ -21,6 +21,7 @@ plugins:
 
 # Theme-specific settings
 minima: 
+  skin: dark
   social_links:
     - { platform: devto,          user_url: "https://dev.to/jekyll" }
     - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
