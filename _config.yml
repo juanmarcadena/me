@@ -1,9 +1,16 @@
-title: Juan M. Cadena
-address: West Lafayette, IN 47906
-phone: (765) 772-8587
-email: cadenaj@purdue.edu
-linkedin: juanmartincadena
+title: Your awesome title
+author:
+  name: GitHub User
+  email: your-email@domain.com
 
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
+
+# Build settings
 
 theme: minima
 
@@ -21,9 +28,9 @@ minima:
 
   # Generate social links in footer.
   #
-  # social_links:
-  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
-  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+   social_links:
+     - { platform: devto,          user_url: "https://dev.to/jekyll" }
+     - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
   #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
   #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
