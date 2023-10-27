@@ -2,8 +2,6 @@
 layout: home
 ---
 
-### Juan M. Cadena
-
 - **Address:** {{ site.address }}
 - **Phone:** {{ site.phone }}
 - **Email:** [{{ site.email }}](mailto:{{ site.email }})
@@ -12,7 +10,7 @@ layout: home
 ## Education
 
 **Purdue University, College of Engineering, West Lafayette**
-- MS in Engineering Management, Computer Engineering Depth, Fulbright Scholar
+- MS in Engineering Management, Systems and Computer Engineering Depth, Fulbright Scholar
 - Graduation: Dec. 2023
 - GPA: 3.76
 
@@ -53,32 +51,30 @@ Oct. 2017 - Oct. 2018
 
 ## Leadership and Involvement
 
-**United Nations Volunteers, Quito, Ecuador**  
+[**United Nations Volunteers, Quito, Ecuador**](https://drive.google.com/uc?id=1N593WVFvIy864aQTILOiXlrP00KcZGEp)  
 _Tech. Consultant, Secretaria Técnica Ecuador Crece sin Desnutricion Infantil_  
 Jun. 2022 - Dec. 2022  
-- Identified goals and steered the development of a digital platform to boost coordination between rural Ecuador employees and headquarters.
-- Ensured alignment between product owners, the development team, and user requirements.
+- Spearheaded the development of a digital platform enhancing coordination between rural teams and headquarters.
 
 ## Certifications
 
 - **Graduate Certificate in Systems Engineering**, Purdue University, Dec. 2023
-- **Professional Scrum Master™ I (PSM I)**, Scrum.org, Aug. 2023
-- **Programming with Arduino**, Purdue University, May 2023
-- **CAD/3D Printing**, Purdue University, May 2023
-- **CUDA Programming on NVIDIA GPU’s**, Yachay Tech University, Aug. 2018
+- [**Professional Scrum Master™ I (PSM I)**](https://www.credly.com/badges/42c441cd-6d6a-4e99-ac6c-0be229e2ad41), Scrum.org, Aug. 2023
+- [**Programming with Arduino**](https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/Programming_with_Arduino/2023/Spring/NXGzTat054pd9ETcbcY0XA.png), Purdue University, May 2023
+- [**CAD/3D Printing**](https://engineering.purdue.edu/Engr/Academics/Undergraduate/Milestones/CAD__3D_Printing/2023/Spring/2WF3GVJBH8xYAvG3SqyosQ.png), Purdue University, May 2023
+- [**CUDA Programming on NVIDIA GPU’s**](https://drive.google.com/uc?id=13R-a5hCvNA_5xGri-Ka7xW4XDREpqlDd), Yachay Tech University, Aug. 2018
 
 ## Academic Experience
 
 **Purdue University, Krannert Graduate Institute at the Daniels School of Business, West Lafayette**  
 _Teaching Assistant_  
 Aug. 2023 - Present  
-- Lead instructional support for Business Analytics courses and the Weekend MBA program.
+- Led instructional support for Business Analytics courses.
 
 **Universidad San Francisco de Quito, Quito, Ecuador**  
 _Teaching Assistant_  
 Jan. 2017 - Dec. 2017  
 - Guided students in Computational Dynamics, Finite Elements, and Calculus.
-- Held office hours, answered questions, and proctored exams.
 
 _Research Assistant, USFQ Theoretical & Computational Mechanics Group_  
 Jan. 2017 - Dec. 2017  
