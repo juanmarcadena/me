@@ -25,7 +25,7 @@ remote_theme: jekyll/minima
 # Theme-specific settings
 
 minima:
-  skin: dark
+  skin: solarized
   social_links:
     - { platform: linkedin,  user_url: "https://www.linkedin.com/in/juanmartincadena/" }
     - { platform: github,   user_url: "https://github.com/juanmarcadena" }
