@@ -51,8 +51,8 @@ Oct. 2017 - Oct. 2018
 
 ## Leadership and Involvement
 
-[**United Nations Volunteers, Quito, Ecuador**](https://drive.google.com/uc?id=1N593WVFvIy864aQTILOiXlrP00KcZGEp)  
-_Tech. Consultant, Secretaria Técnica Ecuador Crece sin Desnutricion Infantil_  
+**United Nations Volunteers, Quito, Ecuador**  
+_[Tech. Consultant, Secretaria Técnica Ecuador Crece sin Desnutricion Infantil](https://drive.google.com/uc?id=1N593WVFvIy864aQTILOiXlrP00KcZGEp)_  
 Jun. 2022 - Dec. 2022  
 - Spearheaded the development of a digital platform enhancing coordination between rural teams and headquarters.
 
