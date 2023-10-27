@@ -1,4 +1,4 @@
-title: Juan Martin
+title: Juan Martin Cadena
 author: 
   name: Juan Martin Cadena
   email: cadenaj@purdue.edu
@@ -18,14 +18,14 @@ linkedin: juanmartincadena
 
 remote_theme: jekyll/minima
 
-#plugins:
+plugins:
 #  - jekyll-feed
-#  - jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Theme-specific settings
 
 minima:
-  skin: dark
+  skin: solarized
   social_links:
     - { platform: linkedin,  user_url: "https://www.linkedin.com/in/juanmartincadena/" }
     - { platform: github,   user_url: "https://github.com/juanmarcadena" }
