@@ -1,14 +1,16 @@
-theme: minima
 
 
+title: Juan Martin Cadena
 author:
   name: Juan Martin Cadena
   email: cadenaj@purdue.edu
   
-title: Juan Martin Cadena
+
 address: West Lafayette, IN 47906
 phone: (765) 772-8587
 linkedin: juanmartincadena
+
+theme: minima
 
 minima:
   social_links:
