@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resume - Juan M. Cadena
+title: Resume
 permalink: /resume/
 ---
 
