@@ -2,8 +2,20 @@
 layout: home
 ---
 
-| ![photo](https://drive.google.com/uc?export=view&id=1dQ5RlBz6nqf6dJb2Pqgz3RpslsXt8Cm4) | **Address:** {{ site.address }}<br>**Phone:** {{ site.phone }}<br>**Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})<br>**LinkedIn:** [{{ site.linkedin }}](https://www.linkedin.com/in/{{ site.linkedin }}) |
-| --- | --- |
+<table border="0" style="border:none;">
+  <tr>
+    <td style="border:none;">
+      <img src="https://drive.google.com/uc?export=view&id=1dQ5RlBz6nqf6dJb2Pqgz3RpslsXt8Cm4" alt="photo" style="width: 150px;"/>
+    </td>
+    <td style="border:none;">
+      <strong>Address:</strong> {{ site.address }}<br>
+      <strong>Phone:</strong> {{ site.phone }}<br>
+      <strong>Email:</strong> <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a><br>
+      <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/{{ site.linkedin }}">{{ site.linkedin }}</a>
+    </td>
+  </tr>
+</table>
+
 
 
 ## Education
