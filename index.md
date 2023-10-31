@@ -2,6 +2,8 @@
 layout: home
 ---
 
+![photo](https://drive.google.com/uc?export=view&id=1dQ5RlBz6nqf6dJb2Pqgz3RpslsXt8Cm4)
+
 - **Address:** {{ site.address }}
 - **Phone:** {{ site.phone }}
 - **Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
