@@ -78,8 +78,8 @@ Jan. 2017 - Dec. 2017
 
 _Research Assistant, USFQ Theoretical & Computational Mechanics Group_  
 Jan. 2017 - Dec. 2017  
-- Generated computational soil particles using a large number of images.
-- Provided MATLAB programming instruction to faculty, students, and external individuals.
+- Generated computational soil particle models using 3DXCT images.
+- Provided MATLAB programming instruction.
 
 ## Honors and Awards
 
