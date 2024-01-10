@@ -20,15 +20,17 @@ layout: home
 
 ## Education
 
+**Georgia Tech, College of Computing, School of Computer Science, Atlanta**
+- M.S. in Computer Science, Online Masters Program
+- Expected Graduation: Dec. 2025
+
 **Purdue University, College of Engineering, West Lafayette**
-- MS in Engineering Management, Systems and Computer Engineering Depth, Fulbright Scholar
-- Graduation: Dec. 2023
-- GPA: 3.76
+- MS in Engineering Management
+- Expected Graduation: May 2024
 
 **Universidad San Francisco de Quito, Quito, Ecuador**
 - BS in Civil Engineering, Cum Laude
 - Graduation: Dec. 2017
-- GPA: 3.54
 
 ## Experience
 
