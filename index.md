@@ -5,7 +5,7 @@ layout: home
 <table border="0" style="border:none;">
   <tr>
     <td style="border:none;">
-      <img src="https://drive.google.com/uc?export=view&id=1dQ5RlBz6nqf6dJb2Pqgz3RpslsXt8Cm4" alt="photo" style="width: 150px;"/>
+      <img src="https://i.postimg.cc/MG7WF5jW/temp-Imageps7-F56.jpg" alt="photo" style="width: 150px;"/>
     </td>
     <td style="border:none;">
       <strong>Address:</strong> {{ site.address }}<br>
