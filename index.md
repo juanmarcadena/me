@@ -32,6 +32,9 @@ layout: home
 - BS in Civil Engineering, Cum Laude
 - Graduation: Dec. 2017
 
+## Skills
+C, C++, Python, PyTorch, SQL, Angular, React, NodeJS, VBA, R, CUDA
+
 ## Experience
 
 **B. Braun Group, Tuttlingen, Germany**
