@@ -21,11 +21,11 @@ layout: home
 ## Education
 
 **Georgia Tech, College of Computing, School of Computer Science, Atlanta**
-- M.S. in Computer Science, Online Masters Program
+- M.S. in Computer Science, Online Masters Program, Computing Systems Specialization
 - Expected Graduation: Dec. 2025
 
 **Purdue University, College of Engineering, West Lafayette**
-- MS in Engineering Management
+- MS in Engineering Management, Systems and Computer Engineering Depth
 - Expected Graduation: May 2024
 
 **Universidad San Francisco de Quito, Quito, Ecuador**
@@ -45,7 +45,7 @@ Apr. 2021 - May 2022
 - Led the development of an application using Microsoft Power Platform.
 - Developed an application for inventory planning.
 
-*Digital Product Manager*
+*Junior Digital Product Manager*
 Nov. 2019 - Apr. 2021
 - Expanded the global rollout of two web and mobile applications.
 - Conducted in-depth analysis of app development costs.
@@ -53,7 +53,7 @@ Nov. 2019 - Apr. 2021
 
 **DE Construction Company, Asunción, Paraguay**
 
-*Project Manager*
+*Junior Project Manager*
 Dec. 2018 - Oct. 2019
 - Analyzed cost data from five construction projects.
 - Integrated a SQL database with VBA Excel macros.
