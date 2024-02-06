@@ -35,6 +35,13 @@ layout: home
 ## Skills
 C, C++, Python, PyTorch, SQL, Angular, React, NodeJS, VBA, R, CUDA
 
+## Projects
+
+In addition to my professional portfolio, I actively contribute to projects and repositories in the realms of **Deep Learning** and **Data Mining**. I encourage you to visit my other repositories to gain insights into my research, projects, and technical explorations in these cutting-edge fields.
+
+- [Deep Learning Projects](https://github.com/juanmarcadena/deep-learning)
+- [Data Mining Explorations](https://github.com/juanmarcadena/data-mining-intro)
+
 ## Experience
 
 **B. Braun Group, Tuttlingen, Germany**
