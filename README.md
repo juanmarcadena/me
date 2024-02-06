@@ -1,4 +1,4 @@
-# Juan Martin Cadena's Personal Website
+# About this repo
 
 Welcome to the repository of my personal website. This site serves as a professional portfolio showcasing my education, skills, experience, certifications, academic achievements, leadership roles, and contact information. 
 
